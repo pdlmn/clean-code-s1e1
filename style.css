@@ -41,7 +41,10 @@ body {
 .list__item, .heading {
   list-style:none;
 }
-input,button{
+.add-todo__input,
+.list__checkbox,
+.list__edit,
+.btn {
   outline:none;
 }
 .btn {
