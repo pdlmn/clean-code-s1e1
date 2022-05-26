@@ -21,7 +21,7 @@
 }
 
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .hero {
     text-align: center;
@@ -50,7 +50,8 @@
   padding: 0px;
 }
 
-.list__item, .heading {
+.list__item,
+.heading {
   list-style: none;
 }
 
@@ -72,7 +73,7 @@
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -149,7 +150,7 @@
 }
 
 /* Completed */
-.list__label-completed {
+#completed-tasks .list__label {
   text-decoration: line-through;
   color: #888;
 }
